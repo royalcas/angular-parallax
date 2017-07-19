@@ -1,0 +1,55 @@
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+        width: 100%;
+        height: 700px;
+        overflow: hidden;
+        position: relative;
+        background: #000;
+}
+
+.background {
+        background: url(https://andwecode.com/playground-demo/naruto-with-parallax-js/images/huge_bg.jpg);
+        width: 100%;
+        height: 700px;
+        left: 0;
+        top: 0;
+}
+
+.layer div {
+        position: absolute;
+}
+
+.kurama {
+        top: -150px;
+        left: -150px;
+}
+
+.minato {
+        top: 330px;
+        left: 250px;
+}
+
+.obito {
+        top: 520px;
+        left: 550px;
+}
+
+.landscape {
+        top: 500px;
+        left: -250px;
+}
+
+.grass {
+        top: 700px;
+        left: -250px;
+}
+
+.leaves {
+        top: 350px;
+        left: 0px;
+}
